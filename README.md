@@ -4,7 +4,7 @@ The objective of this homework is to review some basics concepts of python, toge
 the basics of [NumPy](https://numpy.org/doc/stable/user/absolute_beginners.html) and 
 [Matplotlib](https://matplotlib.org/stable/tutorials/introductory/quick_start.html#sphx-glr-tutorials-introductory-quick-start-py).
 
-All of your answers must be written in a file `answers_module.py` at the 'root' folder of this repo (except the last one).
+All of your answers must be written in a file called `answers_module.py` at the 'root' folder of this repo (except the last one).
 
 ## Loops, conditionals, recursive functions
 1) Make a function called **myrec** that computes $f(x) = 2*x - f(x-1)$ for values greater than 0 (0 if x == 0).
