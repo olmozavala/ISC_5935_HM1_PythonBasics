@@ -37,8 +37,10 @@ output= {'number_files': X,
 
 # Numpy
 
-3) Make a function called **add2and3** that will add input a matrix and all the elements of the second row and the third column of any 
-matrix bigger than a (2x3). The function will print **"Matrix too small."** if the matrix does not has the proper size.
+3) Make a function called **add2and3** that will input a matrix and **sum** all the elements of the second row and
+the elements of the third column of any matrix bigger than a (2x3). 
+The function will print **"Matrix too small."** if the matrix does not have the proper size.
+ 
 4) Make a function called **squareme**. This function will receive a matrix and a row number, it will return a *ndarray* 
 with the squared numbers of the specified row. The function will print "Row not found." if the specified row number 
 does not exist.
