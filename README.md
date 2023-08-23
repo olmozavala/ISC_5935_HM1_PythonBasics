@@ -12,7 +12,6 @@ All of your answers must be written in a file called `answers_module.py` at the 
 The function **must** raise any type of exception if the input number $x$ is < 0.
 ```python
 def myrec(x):
-    # returns $2*x - myrec(x-1)
 ```
 
 ## IO (5 pts)
