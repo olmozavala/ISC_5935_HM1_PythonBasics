@@ -4,7 +4,7 @@ The objective of this homework is to review some basics concepts of python, toge
 the basics of [NumPy](https://numpy.org/doc/stable/user/absolute_beginners.html) and 
 [Matplotlib](https://matplotlib.org/stable/tutorials/introductory/quick_start.html#sphx-glr-tutorials-introductory-quick-start-py).
 
-For ths assignment you need to make a markdown report file called `report.md` with the answers to the questions bellow and the code you used to solve them. In order for the autograding to work properly, all of your answers must be written in a file called `answers_module.py` at the 'root' folder of this repo (except the last question).
+For ths assignment you need to make a markdown report file called `report.md` (see example file) with the answers to the questions bellow and the code you used to solve them. In order for the autograding to work properly, all of your answers must be written in a file called `answers_module.py` at the 'root' folder of this repo (except the last question).
 
 ## Loops, conditionals, recursive functions (5 pts)
 1) Make a function called **myrec** that computes $f(x) = 2*x - f(x-1)$ for values greater than 0 (0 if x == 0).
@@ -20,8 +20,8 @@ in a **dictionary**: *number of files or folders*, *a list containing the names 
 and a *list containing 'file' or 'folder' depending if the corresponding file is a file or a folder*. 
 
 Additional info:
-1. Be sure that the **keys** of your dictionary are the same as the one bellow.
-2. The **files** list should be sorted. (containing the names of files or folder inside the path)
+1. Be sure that the **keys** of your dictionary are the same as the ones bellow.
+2. The **files** list **must** be **sorted**. (containing the names of files or folder inside the path)
 3. The function should print **"Folder does not exist."** if the input folder does not exist. 
 
 Tip. If you do not know where to start look at `os` and `os.path`.
@@ -40,15 +40,14 @@ output= {'number_files': X,
 the elements of the third column of any matrix bigger than a (2x3). 
 The function will print **"Matrix too small."** if the matrix does not have the proper size.
  
-4) Make a function called **squareme**. This function will receive a matrix and a row number, it will return a *ndarray* 
-with the squared numbers of the specified row. The function will print "Row not found." if the specified row number 
-does not exist.
+4) Make a function called **squareme**. This function will receive a matrix and a row number, it will return an *ndarray* 
+with the squared numbers of the specified row. The function will print **"Row not found."** if the specified row number does not exist.
 
 # Matplolib (5 pts)
 
-5) Take a look at the repo [git@github.com:olmozavala/matplotlib_ex.git](git@github.com:olmozavala/matplotlib_ex.git).
-Make a jupyter notebook with the same or similar examples than the file `Basics.py`. Each comment starting with "##"
-should become a new cell in your notebook. 
+5) Take a look at the repo [https://github.com/olmozavala/matplotlib_ex](https://github.com/olmozavala/matplotlib_ex).
+
+Select and run two examples from the file `1_Basics.py`. Paste the code and the resulting figures in your report. 
 
 
 
