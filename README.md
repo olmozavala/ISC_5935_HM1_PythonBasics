@@ -1,10 +1,10 @@
-# Python basics assigment
+# Python basics assignment
 
 The objective of this homework is to review some basics concepts of python, together with 
 the basics of [NumPy](https://numpy.org/doc/stable/user/absolute_beginners.html) and 
 [Matplotlib](https://matplotlib.org/stable/tutorials/introductory/quick_start.html#sphx-glr-tutorials-introductory-quick-start-py).
 
-All of your answers must be written in a file called `answers_module.py` at the 'root' folder of this repo (except the last question).
+For ths assignment you need to make a markdown report file called `report.md` with the answers to the questions bellow and the code you used to solve them. In order for the autograding to work properly, all of your answers must be written in a file called `answers_module.py` at the 'root' folder of this repo (except the last question).
 
 ## Loops, conditionals, recursive functions (5 pts)
 1) Make a function called **myrec** that computes $f(x) = 2*x - f(x-1)$ for values greater than 0 (0 if x == 0).
