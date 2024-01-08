@@ -20,13 +20,8 @@ in a **dictionary**: *number of files or folders*, *a list containing the names 
 and a *list containing 'file' or 'folder' depending if the corresponding file is a file or a folder*. 
 
 Additional info:
-<<<<<<< HEAD
 1. Be sure that the **keys** of your dictionary are the same as the ones bellow.
 2. The **files** list **must** be **sorted**. (containing the names of files or folder inside the path)
-=======
-1. Be sure that the **keys** of your dictionary are the same as the one below.
-2. The **files** list should be sorted. (containing the names of files or folders inside the path)
->>>>>>> f005ba1366b223131dcea01753058db54a49dbf8
 3. The function should print **"Folder does not exist."** if the input folder does not exist. 
 
 Tip. If you do not know where to start look at `os` and `os.path`.
@@ -53,6 +48,3 @@ with the squared numbers of the specified row. The function will print **"Row no
 5) Take a look at the repo [https://github.com/olmozavala/matplotlib_ex](https://github.com/olmozavala/matplotlib_ex).
 
 Select and run two examples from the file `1_Basics.py`. Paste the code and the resulting figures in your report. 
-
-
-
